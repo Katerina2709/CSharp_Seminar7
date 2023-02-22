@@ -43,7 +43,7 @@ void PrintArray (int[,] array)
     }
 }
 
-//  среднее арифметическое элементов столбцов массива c округлением до 1 цифры после запятой
+//  среднее арифметическое элементов столбцов массива c округлением до 2 знаков после запятой
 double [] NumbsAverage (int [,] array)
 {
     double [] average = new double [array.GetLength(1)];
